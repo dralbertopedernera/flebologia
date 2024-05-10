@@ -1003,6 +1003,15 @@ textarea {
     box-shadow: 3px 3px 5px gray;
     padding: 20px; /* Espacio interno para las sub-cajas */
 }
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    left:0px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 .box h2{
     font-size: 1.3rem;
 }
