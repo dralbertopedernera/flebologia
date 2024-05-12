@@ -592,7 +592,7 @@ p {
     border: 2px solid black;
     position: relative;
     top: 0px;
-    left: 500px;
+    left: 600px;
     box-shadow: 3px 3px 5px gray;
     padding: 20px; /* Espacio interno para las sub-cajas */
 }
@@ -1003,15 +1003,6 @@ textarea {
     box-shadow: 3px 3px 5px gray;
     padding: 20px; /* Espacio interno para las sub-cajas */
 }
-.profile-photo {
-    width: 350px;
-    height: 350px;
-    left:0px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 0px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 .box h2{
     font-size: 1.3rem;
 }
@@ -1025,6 +1016,15 @@ textarea {
     height: 1250px;
     background-color: #f8f9fa;
     overflow: hidden;
+}
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    left:0px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .sub-box {
